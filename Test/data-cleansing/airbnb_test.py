@@ -37,6 +37,7 @@ columns_to_keep = [
 ]
 
 #let's check if we have a right number of rows
+
 def test_rows_count():
     row_count = len(data.index)
     assert row_count == proper_row_count
