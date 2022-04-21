@@ -53,6 +53,7 @@ def test_price_range():
     assert len(cur_price_range) == 0
 
 #let's check if the columns are in a proper order
+
 def test_column_names():
     cur_column_names = list(data.columns)
     check = all(item in columns_to_keep for item in cur_column_names)
